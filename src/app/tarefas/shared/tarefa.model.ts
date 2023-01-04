@@ -7,4 +7,5 @@ export class Tarefa {
     public nome?: string,
     public concluida?: boolean
   ){}
+
 }
