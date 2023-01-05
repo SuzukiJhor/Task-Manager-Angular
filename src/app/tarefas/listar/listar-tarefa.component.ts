@@ -16,10 +16,6 @@ export class ListarTarefaComponent {
 
     ngOnInit() {
       this.tarefas = this.listarTodos()
-      this.tarefas = [
-        new Tarefa(1, 'angular', false),
-        new Tarefa(1, 'angular2', true)
-      ]
     }
 
     listarTodos(): Tarefa[] {
