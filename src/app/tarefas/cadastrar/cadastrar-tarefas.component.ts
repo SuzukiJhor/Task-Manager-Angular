@@ -12,7 +12,7 @@ import { Tarefa } from '../shared';
 })
 export class CadastrarTarefasComponent {
 
-  @ViewChild('formTarefa', { static: true }) formTarefa: NgForm;
+  @ViewChild('formTarefa') formTarefa: NgForm;
   tarefa:Tarefa;
 
   constructor(
@@ -27,7 +27,6 @@ export class CadastrarTarefasComponent {
   cadastrar(): void{
     if (this.formTarefa.form.valid){
       this.TarefaService.cadastrar(this.tarefa)
-      console.log(this.tarefa);
       this.router.navigate(['/tarefas'])
 
     }

@@ -37,14 +37,14 @@ export class TarefaService {
       }
     })
 
-    localStorage['tarefa'] = JSON.stringify(tarefas)
+    localStorage['tarefas'] = JSON.stringify(tarefas)
   }
 
   remover(id: number): void {
     let tarefas: Tarefa[] = this.listarTodos();
     tarefas = tarefas.filter( tarefa => tarefa.id !== id )
 
-    localStorage['tarefa'] = JSON.stringify(tarefas)
+    localStorage['tarefas'] = JSON.stringify(tarefas)
   }
 
   alterarStatus(id: number): void{
@@ -55,6 +55,6 @@ export class TarefaService {
       }
     });
 
-    localStorage['tarefa'] = JSON.stringify(tarefas)
+    localStorage['tarefas'] = JSON.stringify(tarefas)
   }
 }
