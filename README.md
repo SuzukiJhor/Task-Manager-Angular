@@ -30,3 +30,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <br>
 
 ![tasksAngular](https://user-images.githubusercontent.com/95131108/211358137-3416a4bb-8ba3-4cae-952c-e1bef5477134.jpg)
+
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
